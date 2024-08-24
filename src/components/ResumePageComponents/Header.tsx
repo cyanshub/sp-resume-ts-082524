@@ -1,7 +1,14 @@
 import styled from 'styled-components'
 
+// 若有傳入 props 參數, 則需先定義 props 參數的類型
+type Props = {
+  // 定義回調函數的類型
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void
+}
+
 // UI元件
-const Header = () => {
+// 為組件定義類型
+const Header = ({ onChange }: Props) => {
   return (
     <header>
       <nav>
@@ -15,7 +22,7 @@ const Header = () => {
               深色模式
             </StyledSpan>
           </label>
-          <input type="checkbox" id="nav-darkmode-toggle" />
+          <input type="checkbox" id="nav-darkmode-toggle" onChange={(event) => onChange?.(event)} />
         </div>
       </nav>
     </header>
