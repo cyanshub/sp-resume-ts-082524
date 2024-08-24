@@ -1,13 +1,17 @@
-import Header from "../components/ResumePageComponents/Header"
-import InfoSection from "../components/ResumePageComponents/InfoSection"
+import { DescriptionSection, Header, InfoSection } from "../components/ResumePageComponents"
+
+
+
 
 const ResumePage = () => {
 
   return (
     <>
+
       <Header />
       <main>
         <InfoSection />
+        <DescriptionSection />
       </main>
       
     </>
