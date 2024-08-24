@@ -1,6 +1,11 @@
+import Header from "../components/ResumePageComponents/Header"
+
 const ResumePage = () => {
+
   return (
-    <><div>Hello World!</div></>
+    <>
+      <Header  />
+    </>
   )
 }
 
