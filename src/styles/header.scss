@@ -1,0 +1,44 @@
+/* 設定 header 基本樣式 */
+header {
+  height: 60px;
+  color: var(--header-color);
+  box-shadow: var(--header-box-shadow);
+
+  /* 固定標題列 */
+  background-color: var(--main-background-color);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+
+    .nav-title {
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .nav-link {
+      color: var(--nav-link-color);
+    }
+
+    .nav-group {
+      display: flex;
+
+      .nav-icon {
+        flex-flow: row wrap;
+        margin-left: 20px;
+        cursor: pointer;
+      }
+
+      #nav-darkmode-toggle {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+/* 設定 skill-section 與 experience-section 樣式 */
+.skill {
+  margin-right: 2rem;
+}
+
+.skill-name {
+  border-top: 1px solid var(--decoration-line-color);
+  padding-top: 16px;
+  white-space: nowrap;
+}
+
+.skill-description {
+  text-align: justify;
+}
+
+.skill-description {
+  min-width: 240px;
+  margin-bottom: 20px;
+  text-indent: 2em;
+}
+
+.skill-section {
+  display: flex;
+  overflow-x: auto;
+}
+
+.skill {
+  margin-right: 50px;
+}
+
+.skill-section {
+  max-width: 1500px;
+
+  .image-container {
+    flex: 0 0 auto;
+
+    img {
+      width: 270px;
+      height: 410px;
+    }
+  }
+}

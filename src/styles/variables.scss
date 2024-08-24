@@ -1,0 +1,33 @@
+$blue: rgb(46, 95, 154);
+
+/* 顏色、圖片參數化 */
+:root {
+  /* color */
+  --main-text-color: #333333;
+  --main-background-color: #f6f7f8;
+  --header-color: #666666;
+  --header-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.08);
+  --nav-link-color: #666666;
+  --social-media-link-color: #999999;
+  --social-media-link-hover-color: #008ae6;
+  --title-color: #008ae6 --company-color: #666666;
+  --duration-color: #666666;
+  --decoration-line-color: #999999;
+}
+
+
+/* 實作 darkmode */
+[data-theme="dark"] {
+  /* color */
+  --main-text-color: #f6faff;
+  --main-background-color: #3a3a3a;
+  --header-color: rgb(46,95,154);
+  --header-box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.08);
+  --nav-link-color: rgb(46,95,154);
+  --social-media-link-color: #999999;
+  --social-media-link-hover-color: #f6faff;
+  --title-color: rgb(46,95,154);
+  --company-color: rgb(46,95,154);
+  --duration-color: rgb(46,95,154);
+  --decoration-line-color: #999999;
+}

@@ -1,0 +1,60 @@
+// 載入低階模組彙整器, 使用 as * 免除輸入引用低階模組的名稱
+@use './styles/index' as *;
+
+// 基礎及共用樣式
+html,
+body,
+#root {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+  font-family: 'Lato', 'Noto Sans TC', sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 1.5rem 0 0.5rem;
+  width: 100%;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem;
+  font-weight: 500;
+}
+
+p {
+  color: var(--main-text-color);
+  justify-content: space-between;
+  text-align: justify;
+}
+
+hr {
+  border: 0px;
+  height: 1px;
+  background-color: #cccccc;
+  margin: 20px 0;
+}
+
+.link-formats {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.image-container {
+  overflow: hidden;
+  /* 隱藏溢出部分 */
+}
+
+.image-container img {
+  object-fit: cover;
+  /* 保持原始比例，填滿容器 */
+}
+
+.img-shadow {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

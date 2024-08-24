@@ -1,0 +1,40 @@
+/* 設定 info-section 樣式 */
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.avatar-img {
+  border-radius: 25px;
+  width: 128px;
+  height: 128px;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.social-media-link {
+  color: var(--social-media-link-color);
+  text-decoration: none;
+}
+
+.social-media-link:hover {
+  color: var(--social-media-link-hover-color);
+}
+
+.title {
+  text-align: start;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  color: var(--title-color);
+  white-space: nowrap;
+}
+
+.description {
+  max-width: 400px;
+  text-indent: 2em;
+}
