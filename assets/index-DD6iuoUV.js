@@ -71,10 +71,10 @@ Error generating stack: `+s.message+`
   white-space: nowrap;
 `,ES=Ao.a`
   text-decoration: none;
-  color: #625b57;
+  color: var(--main-text-color);
 
   &:hover {
-    color: #000079;
+    color: var(--nav-link-color);
   }
 `,xS=()=>P.jsxs("div",{className:"experience-section",children:[P.jsx("h2",{className:"job-experience mt-3",children:"工作經歷"}),P.jsxs("div",{className:"experience-item",children:[P.jsx("h3",{className:"job-title",children:"環境與淨零研究室"}),P.jsxs("span",{className:"company",children:[P.jsx("i",{className:"far fa-building"}),"工研院綠能所 副工程師"]}),P.jsx("div",{className:"mb-1",children:P.jsx("span",{className:"company",children:" 起訖: 2022.08.01 - 2023.03.31"})}),P.jsxs(Wa,{children:[P.jsx("li",{children:"辦理溫室氣體排放量編輯與國家溫室氣體排放清冊"}),P.jsx("li",{children:"確保我國排放量資料符合國際規範"}),P.jsx("li",{children:"對外公開溫室氣體排放資料，將報告發布於公開網站入口"})]})]}),P.jsx("hr",{}),P.jsxs("div",{className:"experience-item",children:[P.jsx("h3",{className:"job-title",children:"陽光屋頂百萬座計畫推動"}),P.jsxs("span",{className:"company",children:[P.jsx("i",{className:"far fa-building"}),"工研院綠能所 副工程師(兼任)"]}),P.jsx("div",{className:"mb-1",children:P.jsx("span",{className:"company",children:" 起訖: 2020.04.03 - 2022.07.31"})}),P.jsxs(Wa,{children:[P.jsx("li",{children:"協助執行推動計畫"}),P.jsx("li",{children:"協助整理談參資料、技術支援"}),P.jsx("li",{children:"協助辦理彰化縣、雲林縣、高雄市、屏東縣漁業經營結合綠能之區位範圍海岸利用管理可行性規劃報告"})]})]}),P.jsx("hr",{}),P.jsxs("div",{className:"experience-item",children:[P.jsx("h3",{className:"job-title",children:"太陽光電系統與可靠度"}),P.jsxs("span",{className:"company",children:[P.jsx("i",{className:"far fa-building"}),"工研院綠能所 副工程師"]}),P.jsx("div",{className:"mb-1",children:P.jsx("span",{className:"company",children:" 起訖: 2019.06.03 - 2022.07.31"})}),P.jsxs(Wa,{children:[P.jsx("li",{children:"111年度「太陽光電選址2.0策略推動計畫」(1/1)研究報告"}),P.jsx("li",{children:"基於地理資訊系統於太陽光電系統異常檢查之研究"}),P.jsx("li",{children:"111年度太陽光電選址2.0策略推動計畫委辦計畫報告"}),P.jsx("li",{children:"養菇場結合太陽光電系統系統效益評估報告"}),P.jsx("li",{children:"養菇場結合太陽光電系統規劃設計評估"})]})]}),P.jsx("hr",{})]}),Wa=Ao.ul`
   padding-left: 1rem;
